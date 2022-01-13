@@ -1,12 +1,2 @@
-flask
-flask_sqlalchemy
-flask_bcrypt
-flask_login
-itsdangerous
-flask_mail
-gunicorn
-requests
-flask_wtf
-wtforms
-secrets
-PIL
+flask==1.1.2
+gunicorn==20.1.0
