@@ -13,9 +13,9 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
     {% if title %}
-    <title>Flask Blog - {{ title }}</title>
+    <title>Bookclub 101 - {{ title }}</title>
     {% else %}
-    <title>Flask Blog</title>
+    <title>Bookclub 101</title>
     {% endif %}
 </head>
 
@@ -23,7 +23,10 @@
     <header class="site-header">
         <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
             <div class="container">
-                <a class="navbar-brand mr-4" href="/">Flask Blog</a>
+                <a class="navbar-brand mr-4" href="/">
+                  <img src="https://www.stylist.co.uk/images/app/uploads/2019/12/17162852/the-end-of-a-book-1120x1120.jpeg?w=1200&h=1&fit=max&auto=format%2Ccompress" width="30" height="30" class="d-inline-block align-top rounded" alt="">
+                  For The Love Of Books
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
                     aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
