@@ -1,6 +1,4 @@
-# [For The Love Of Books] (https://kbookclub.herokuapp.com/home) 
-
-Click on the heading above to go to the website.
+# [For The Love Of Books]
 
 Here's how the Homepage looks like -
 
